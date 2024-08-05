@@ -37,7 +37,17 @@ return {
   { "bioSyntax/bioSyntax-vim", lazy = false },
 
   -- Make nvim reactive to window changes, buffer type, etc...
-  { 'rasulomaroff/reactive.nvim', lazy=false },
+  -- {
+  --   'rasulomaroff/reactive.nvim',
+  --  lazy=false,
+  --    require('lazy.reactive').setup {
+  --      builtin = {
+  --      cursorline = true,
+  --      cursor = true,
+  --      modemsg = true
+  --      },
+  --  }
+  -- ,
   -- To make a plugin not be loaded
   -- {
   --   "NvChad/nvim-colorizer.lua",
